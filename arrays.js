@@ -24,3 +24,13 @@ function accessElementInArray (array, index) {
   var element = array[index];
   return element;
 }
+
+function destructivelyRemoveElementFromBeginningOfArray (array) {
+  array.shift();
+  return array;
+}
+
+function removeElementFromBeginningOfArray (array) {
+  var sliceArray = array.slice(1);
+  return sliceArray;
+}
