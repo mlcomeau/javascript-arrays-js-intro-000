@@ -14,5 +14,3 @@ function addElementToEndOfArray (array, element) {
   var arrayTwo = [...array, element];
   return arrayTwo;
 }
-
-
